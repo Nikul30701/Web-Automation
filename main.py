@@ -76,11 +76,11 @@ class WebAutomation:
         self.driver.quit()
 
 if __name__ == "__main__":
-    webautomation = WebAutomation()
-    webautomation.login("Nikul6403", "Nikul@30701")
-    webautomation.fill_form("John Smith", "johnsmith@gmail.com", "Street 1", "Street 2")
-    webautomation.download()
-    webautomation.close()
+    web_automation = WebAutomation()
+    web_automation.login("Nikul6403", "Nikul@30701")
+    web_automation.fill_form("John Smith", "johnsmith@gmail.com", "Street 1", "Street 2")
+    web_automation.download()
+    web_automation.close()
 
 
 
